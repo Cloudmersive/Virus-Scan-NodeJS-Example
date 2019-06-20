@@ -38,7 +38,7 @@ fs.readdir(directoryPath, function (err, files) {
             }
             else
             {
-                console.log('!!!!!! VIRUS FOUND !!!!!!');
+                console.log('!!!!!! VIRUS FOUND !!!!!! ' + fullPath);
             }
         }
         };
