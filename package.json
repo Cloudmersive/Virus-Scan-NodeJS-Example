@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "cloudmersive-validate-api-client": "^1.1.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Cloudmersive/Virus-Scan-NodeJS-Example.git"
