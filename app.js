@@ -32,7 +32,14 @@ fs.readdir(directoryPath, function (err, files) {
         if (error) {
             console.error(error);
         } else {
-            console.log('API called successfully. Returned data: ' + data);
+            if (data.CleanResult)
+            {
+                console.log('Clean file');
+            }
+            else
+            {
+                console.log('!!!!!! VIRUS FOUND !!!!!!');
+            }
         }
         };
 
