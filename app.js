@@ -34,7 +34,7 @@ fs.readdir(directoryPath, function (err, files) {
         } else {
             if (data.CleanResult)
             {
-                console.log('Clean file');
+                console.log('Clean file: ' + fullPath);
             }
             else
             {
